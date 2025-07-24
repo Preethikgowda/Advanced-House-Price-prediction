@@ -56,5 +56,39 @@ This project aims to predict the final sale prices of residential homes using ad
 
 ---
 
+
 ## 📁 Project Structure
 
+├── data/ # Raw and processed data files
+├── notebooks/ # Jupyter notebooks for EDA & modeling
+├── models/ # Trained model files (if any)
+├── requirements.txt # Python dependencies
+├── README.md # Project overview
+└── house_price_prediction.ipynb # Main analysis notebook
+
+
+## ✅ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Preethikgowda/Advanced-House-Price-Prediction.git
+   cd Advanced-House-Price-Prediction
+   ```
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+Launch the Jupyter notebook:
+```
+jupyter notebook
+```
+
+📚 Reference
+Kaggle Competition: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
+
+XGBoost Documentation: https://xgboost.readthedocs.io/en/stable/
+
+🧑‍💻 Author
+Preethi T K
+preethikgowda26@gmail.com
